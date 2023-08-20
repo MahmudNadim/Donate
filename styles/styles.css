@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header styles */
+header{
+    background-image: url(../images/donation11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 450px;
+
+}
+.header-title{
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    width: 550px;
+    /* line-height: 30px; */
+    /* padding-top: 100px; */
+}
+.header-description{
+    color: rgb(233, 144, 152);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 35px;
+}
+.btn{
+    height: 64px;
+    background-color: #bb5e5e;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+/* main styles */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* donate section styles */
+.donate{}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+.section-description{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px;
+}
+.donate-option{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.donate-option li{
+    list-style: none;
+    border-radius: 5px;
+    background: #757575;
+    box-shadow: gold;
+    width: 150px;
+    /* height: 100px; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: beige;
+    padding: 30px 30px;
+}
+.donate li:hover{
+    color: white;
+    background-color: #bb5e5e;
+}
+.amount-title{
+    color: rgb(30, 167, 167);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.donate a{
+    text-align: center;
+    /* margin-left: 300px; */
+    position: absolute;
+    left: 40%;
+}
+/* plan styles */
+.donate-plan{}
+.plans{
+    display: flex;
+    gap: 24px;
+}
+.food{
+    background-color: #839cc021;
+    border-radius: 5px;
+    padding: 35px 15px;
+}
+.shelter{
+    background-color: #e7a4e544;
+    border-radius: 5px;
+    padding: 35px 15px;
+}
+.education{
+    background-color: #dbda8d6b;
+    border-radius: 5px;
+    padding: 35px 15px;
+}
+.plan-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+
+}
+.plan-description{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+/* lives depend styles */
+.lives-depend, .they-need{ 
+    display: flex;
+    gap: 40px;
+}
+.lives .section-description, .need .section-description{
+    text-align: left;
+}
+.lives-depend img{
+    width: 60%;
+    height: auto;
+}
