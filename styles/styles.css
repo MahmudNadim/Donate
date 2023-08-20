@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* header styles */
-header{
+header {
     background-image: url(../images/donation11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,23 +12,26 @@ header{
     padding: 100px 450px;
 
 }
-.header-title{
-    color: whitesmoke;
+
+.header-title {
+    color: rgb(17, 14, 14);
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 1200;
     text-align: center;
     width: 550px;
     /* line-height: 30px; */
     /* padding-top: 100px; */
 }
-.header-description{
-    color: rgb(233, 144, 152);
+
+.header-description {
+    color: rgb(233, 144, 186);
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin: 35px;
 }
-.btn{
+
+.btn {
     height: 64px;
     background-color: #bb5e5e;
     border: 0;
@@ -38,35 +42,42 @@ header{
     font-weight: 700;
     padding: 0 30px;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1100px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /* donate section styles */
-.donate{}
-.section-title{
+.donate {}
+
+.section-title {
     text-align: center;
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 900;
 }
-.section-description{
+
+.section-description {
     color: var(--dark-03, #757575);
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin: 30px;
 }
-.donate-option{
+
+.donate-option {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.donate-option li{
+
+.donate-option li {
     list-style: none;
     border-radius: 5px;
     background: #757575;
@@ -79,11 +90,13 @@ section{
     color: beige;
     padding: 30px 30px;
 }
-.donate li:hover{
+
+.donate li:hover {
     color: white;
     background-color: #bb5e5e;
 }
-.amount-title{
+
+.amount-title {
     color: rgb(30, 167, 167);
     font-size: 18px;
     font-weight: 400;
@@ -91,44 +104,53 @@ section{
     margin-top: 50px;
     margin-bottom: 5px;
 }
-hr{
+
+hr {
     margin-bottom: 20px;
 }
-.donate a{
+
+.donate a {
     text-align: center;
     /* margin-left: 300px; */
     position: absolute;
     left: 40%;
 }
+
 /* plan styles */
-.donate-plan{}
-.plans{
+.donate-plan {}
+
+.plans {
     display: flex;
     gap: 24px;
 }
-.food{
+
+.food {
     background-color: #839cc021;
     border-radius: 5px;
     padding: 35px 15px;
 }
-.shelter{
+
+.shelter {
     background-color: #e7a4e544;
     border-radius: 5px;
     padding: 35px 15px;
 }
-.education{
+
+.education {
     background-color: #dbda8d6b;
     border-radius: 5px;
     padding: 35px 15px;
 }
-.plan-title{
+
+.plan-title {
     color: black;
     font-size: 20px;
     font-weight: 700;
     margin: 20px 0;
 
 }
-.plan-description{
+
+.plan-description {
     color: var(--dark-03, #757575);
     font-size: 18px;
     font-weight: 400;
@@ -136,14 +158,69 @@ hr{
 }
 
 /* lives depend styles */
-.lives-depend, .they-need{ 
+.lives-depend,
+.they-need {
     display: flex;
     gap: 40px;
 }
-.lives .section-description, .need .section-description{
+
+.lives .section-description,
+.need .section-description {
     text-align: left;
 }
-.lives-depend img{
+
+.lives-depend img {
     width: 60%;
     height: auto;
+}
+
+/* get updates styles */
+.form {
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(243, 199, 116, 0.459);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#email {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.548);
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+#subscribe {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgba(201, 51, 51, 0.548);
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+/* footer styles */
+footer {
+    background-color: black;
+    padding: 30px 300px;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+    color: #bb5e5e;
+}
+
+.footer-description {
+    color: aliceblue;
 }
